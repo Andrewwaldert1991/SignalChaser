@@ -5,6 +5,6 @@ Folder Structure
 * Tutorials
   * Streamlit
   * Backtrader 
-  * Strategies
+* Strategies
   * Crypto Momentum Breakout 
 * Tool / Streamlit Seasonal Analytics Dashboard "Pulse Analytics"
