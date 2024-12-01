@@ -30,6 +30,6 @@ jobs:
         run: |
           git config --local user.name "GitHub Actions Bot"
           git config --local user.email "<>"
-          git add btc_prices.csv
+          git add paper_trader/btc_prices.csv
           git commit -m "Update BTC prices [skip ci]" || echo "No changes to commit"
           git push
