@@ -24,7 +24,7 @@ jobs:
 
       - name: Fetch BTC Price and Update CSV
         run: |
-          python fetch_btc_prices.py
+          python paper_trader/fetch_btc_prices.py
 
       - name: Commit and Push Changes
         run: |
