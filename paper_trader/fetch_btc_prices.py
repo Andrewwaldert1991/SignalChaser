@@ -1,12 +1,13 @@
 import requests
 import csv
+import os
 from datetime import datetime
 
 # API endpoint for real-time BTC price (CoinGecko)
 API_URL = "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd"
 
-# CSV file path
-CSV_FILE = "btc_prices.csv"
+# Define the CSV file path in the 'paper_trader' folder
+CSV_FILE = os.path.join("paper_trader", "btc_prices.csv")
 
 def fetch_btc_price():
     try:
@@ -22,6 +23,7 @@ def update_csv(price):
     try:
         # Get current timestamp
         timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+        
         # Open or create the CSV file and append the new row
         with open(CSV_FILE, mode="a", newline="") as file:
             writer = csv.writer(file)
