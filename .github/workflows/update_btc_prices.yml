@@ -28,7 +28,7 @@ jobs:
 
       - name: Commit and Push Changes
         env:
-          GITHUB_TOKEN: ${{ secrets.crypto_discord_bot }}
+          GITHUB_TOKEN: ${{ secrets.CRYPTO_DISCORD_BOT }}
         run: |
           git config --local user.name "GitHub Actions Bot"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
