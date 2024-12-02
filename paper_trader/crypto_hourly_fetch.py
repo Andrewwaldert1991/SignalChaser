@@ -4,8 +4,8 @@ import os
 from datetime import datetime, timedelta
 
 # Define the CSV file directory relative to the script's location
-BASE_DIR = os.path.dirname(__file__)
-CRYPTO_DATA_DIR = os.path.join(BASE_DIR, "crypto_data")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # Gets paper_trader directory
+CRYPTO_DATA_DIR = os.path.join(BASE_DIR, "crypto_data")  # Creates crypto_data inside paper_trader
 if not os.path.exists(CRYPTO_DATA_DIR):
     os.makedirs(CRYPTO_DATA_DIR)
 
@@ -18,14 +18,13 @@ def get_crypto_list():
         with open(csv_file, 'r') as file:
             reader = csv.DictReader(file)
             for row in reader:
-                # Convert CoinGecko symbol to Yahoo Finance format
-                symbol = f"{row['symbol'].upper()}-USD"
-                crypto_list.append(symbol)
+                # Already in correct format from CoinGecko
+                crypto_list.append(row['symbol'])
         return crypto_list
     except Exception as e:
         print(f"Error reading crypto list: {e}")
         return []
-
+        
 def fetch_historical_data(symbol, start_time, end_time):
     """Fetch historical hourly data for a given crypto symbol"""
     try:
