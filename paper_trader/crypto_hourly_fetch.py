@@ -3,9 +3,9 @@ import csv
 import os
 from datetime import datetime, timedelta
 
-# Define the CSV file directory relative to the repository root
+# Define the CSV file directory relative to the script's location
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # Gets paper_trader directory
-CRYPTO_DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(BASE_DIR)), "crypto_data")  # Move up to Youtube-main
+CRYPTO_DATA_DIR = os.path.join(BASE_DIR, "crypto_data")  # Points to paper_trader/crypto_data
 if not os.path.exists(CRYPTO_DATA_DIR):
     os.makedirs(CRYPTO_DATA_DIR)
     print(f"Created directory: {CRYPTO_DATA_DIR}")
