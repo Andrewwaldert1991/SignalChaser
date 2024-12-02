@@ -29,7 +29,7 @@ jobs:
 
       - name: Fetch Crypto Data
         run: |
-          python paper_trader/crypto_hourly_fetch.py
+          python discord_bot/crypto_hourly_fetch.py
 
       - name: Commit and Push Changes
         env:
