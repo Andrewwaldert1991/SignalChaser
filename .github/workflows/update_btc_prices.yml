@@ -8,6 +8,10 @@ jobs:
   update-btc-prices:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write  # Allow GitHub Actions to push to the repository
+      issues: read  # Optional, if you need issue-related access
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
