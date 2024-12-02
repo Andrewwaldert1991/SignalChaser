@@ -27,9 +27,11 @@ jobs:
           python paper_trader/fetch_btc_prices.py
 
       - name: Commit and Push Changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.crypto_discord_bot }}
         run: |
           git config --local user.name "GitHub Actions Bot"
-          git config --local user.email "<>"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add paper_trader/btc_prices.csv
           git commit -m "Update BTC prices [skip ci]" || echo "No changes to commit"
-          git push
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/SignalChaser/Youtube.git
