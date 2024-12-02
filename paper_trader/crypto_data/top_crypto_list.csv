@@ -1,0 +1,101 @@
+symbol,name,market_cap_rank
+BTC-USD,Bitcoin,1
+ETH-USD,Ethereum,2
+USDT-USD,Tether,3
+XRP-USD,XRP,4
+SOL-USD,Solana,5
+BNB-USD,BNB,6
+DOGE-USD,Dogecoin,7
+USDC-USD,USDC,8
+ADA-USD,Cardano,9
+STETH-USD,Lido Staked Ether,10
+AVAX-USD,Avalanche,11
+TRX-USD,TRON,12
+SHIB-USD,Shiba Inu,13
+TON-USD,Toncoin,14
+XLM-USD,Stellar,15
+WSTETH-USD,Wrapped stETH,16
+WBTC-USD,Wrapped Bitcoin,17
+DOT-USD,Polkadot,18
+LINK-USD,Chainlink,19
+WETH-USD,WETH,20
+BCH-USD,Bitcoin Cash,21
+SUI-USD,Sui,22
+HBAR-USD,Hedera,23
+LTC-USD,Litecoin,24
+PEPE-USD,Pepe,25
+LEO-USD,LEO Token,26
+NEAR-USD,NEAR Protocol,27
+UNI-USD,Uniswap,28
+WEETH-USD,Wrapped eETH,29
+APT-USD,Aptos,30
+ICP-USD,Internet Computer,31
+USDS-USD,USDS,32
+CRO-USD,Cronos,33
+ETC-USD,Ethereum Classic,34
+POL-USD,POL (ex-MATIC),35
+FET-USD,Artificial Superintelligence Alliance,36
+USDE-USD,Ethena USDe,37
+TAO-USD,Bittensor,38
+RENDER-USD,Render,39
+FIL-USD,Filecoin,40
+KAS-USD,Kaspa,41
+ALGO-USD,Algorand,42
+VET-USD,VeChain,43
+ARB-USD,Arbitrum,44
+DAI-USD,Dai,45
+WBT-USD,WhiteBIT Coin,46
+AAVE-USD,Aave,47
+ATOM-USD,Cosmos Hub,48
+OM-USD,MANTRA,49
+STX-USD,Stacks,50
+OKB-USD,OKB,51
+TIA-USD,Celestia,52
+IMX-USD,Immutable,53
+BONK-USD,Bonk,54
+XMR-USD,Monero,55
+WIF-USD,dogwifhat,56
+MNT-USD,Mantle,57
+OP-USD,Optimism,58
+HYPE-USD,Hyperliquid,59
+THETA-USD,Theta Network,60
+FTM-USD,Fantom,61
+INJ-USD,Injective,62
+GRT-USD,The Graph,63
+ENA-USD,Ethena,64
+SEI-USD,Sei,65
+WLD-USD,Worldcoin,66
+BGB-USD,Bitget Token,67
+WETH-USD,Binance-Peg WETH,68
+FLOKI-USD,FLOKI,69
+FDUSD-USD,First Digital USD,70
+BRETT-USD,Brett,72
+RUNE-USD,THORChain,71
+RETH-USD,Rocket Pool ETH,73
+CBBTC-USD,Coinbase Wrapped BTC,74
+GALA-USD,GALA,75
+KAIA-USD,Kaia,76
+METH-USD,Mantle Staked Ether,77
+ONDO-USD,Ondo,78
+PYTH-USD,Pyth Network,79
+EOS-USD,EOS,80
+AR-USD,Arweave,81
+QNT-USD,Quant,82
+XTZ-USD,Tezos,83
+MKR-USD,Maker,84
+FLR-USD,Flare,85
+JUP-USD,Jupiter,86
+LDO-USD,Lido DAO,87
+STRK-USD,Starknet,88
+EZETH-USD,Renzo Restaked ETH,89
+SAND-USD,The Sandbox,90
+SOLVBTC-USD,Solv Protocol SolvBTC,91
+FLOW-USD,Flow,92
+KCS-USD,KuCoin,93
+JASMY-USD,JasmyCoin,95
+RAY-USD,Raydium,94
+HNT-USD,Helium,96
+GT-USD,Gate,97
+BEAM-USD,Beam,98
+CORE-USD,Core,99
+BSV-USD,Bitcoin SV,100
