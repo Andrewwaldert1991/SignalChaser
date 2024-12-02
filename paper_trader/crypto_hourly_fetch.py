@@ -3,23 +3,29 @@ import csv
 import os
 from datetime import datetime, timedelta
 
-# Define the CSV file directory relative to the script's location
+# Define the CSV file directory relative to the repository root
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # Gets paper_trader directory
-CRYPTO_DATA_DIR = os.path.join(BASE_DIR, "crypto_data")  # Creates crypto_data inside paper_trader
+CRYPTO_DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(BASE_DIR)), "crypto_data")  # Move up to Youtube-main
 if not os.path.exists(CRYPTO_DATA_DIR):
     os.makedirs(CRYPTO_DATA_DIR)
+    print(f"Created directory: {CRYPTO_DATA_DIR}")
 
 def get_crypto_list():
     """Read the crypto list from the existing CoinGecko CSV"""
     try:
         crypto_list = []
         csv_file = os.path.join(CRYPTO_DATA_DIR, "top_crypto_list.csv")
+        print(f"Looking for CSV file at: {csv_file}")
         
+        if not os.path.exists(csv_file):
+            print(f"CSV file not found at: {csv_file}")
+            return []
+            
         with open(csv_file, 'r') as file:
             reader = csv.DictReader(file)
             for row in reader:
-                # Already in correct format from CoinGecko
                 crypto_list.append(row['symbol'])
+        print(f"Found {len(crypto_list)} cryptocurrencies")
         return crypto_list
     except Exception as e:
         print(f"Error reading crypto list: {e}")
