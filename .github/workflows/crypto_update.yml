@@ -27,12 +27,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install yfinance pandas
 
+      - name: Fetch Crypto Data
+        run: |
+          python paper_trader/crypto_hourly_fetch.py
+
       - name: Commit and Push Changes
         env:
           GITHUB_TOKEN: ${{ secrets.CRYPTO_DISCORD_BOT }}
         run: |
           git config --local user.name "GitHub Actions Bot"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add Youtube-main/crypto_data/  # Make sure this matches where files are being saved
+          git add paper_trader/crypto_data/
           git commit -m "Update crypto prices [skip ci]" || echo "No changes to commit"
           git push https://x-access-token:${GITHUB_TOKEN}@github.com/SignalChaser/Youtube.git
