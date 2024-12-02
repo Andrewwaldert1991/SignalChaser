@@ -1,16 +1,17 @@
-name: Update BTC Prices
+name: Hourly Crypto Update
 
 on:
   schedule:
-    - cron: "*/5 * * * *"  # Runs every 5 minutes
+    - cron: "0 * * * *"  # Runs every hour
+  workflow_dispatch:      # Allows manual trigger
 
 jobs:
-  update-btc-prices:
+  update-crypto-data:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write  # Allow GitHub Actions to push to the repository
-      issues: read  # Optional, if you need issue-related access
+      contents: write
+      issues: read
 
     steps:
       - name: Checkout Repository
@@ -24,11 +25,11 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests
+          pip install yfinance pandas
 
-      - name: Fetch BTC Price and Update CSV
+      - name: Fetch Crypto Data
         run: |
-          python paper_trader/fetch_btc_prices.py
+          python Youtube-main/crypto_hourly_fetch.py
 
       - name: Commit and Push Changes
         env:
@@ -36,6 +37,6 @@ jobs:
         run: |
           git config --local user.name "GitHub Actions Bot"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add paper_trader/btc_prices.csv
-          git commit -m "Update BTC prices [skip ci]" || echo "No changes to commit"
+          git add Youtube-main/crypto_data/
+          git commit -m "Update crypto data [skip ci]" || echo "No changes to commit"
           git push https://x-access-token:${GITHUB_TOKEN}@github.com/SignalChaser/Youtube.git
