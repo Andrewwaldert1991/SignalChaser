@@ -4,39 +4,38 @@ import os
 from datetime import datetime, timedelta
 
 # Define the CSV file directory relative to the script's location
-CSV_DIR = os.path.join(os.path.dirname(__file__), "crypto_data")
-if not os.path.exists(CSV_DIR):
-    os.makedirs(CSV_DIR)
+BASE_DIR = os.path.dirname(__file__)
+CRYPTO_DATA_DIR = os.path.join(BASE_DIR, "crypto_data")
+if not os.path.exists(CRYPTO_DATA_DIR):
+    os.makedirs(CRYPTO_DATA_DIR)
 
-def get_crypto_symbols():
-    """Define list of crypto symbols to fetch"""
-    return [
-        "BTC-USD",  # Bitcoin
-        "ETH-USD",  # Ethereum
-        "USDT-USD", # Tether
-        "BNB-USD",  # Binance Coin
-        "XRP-USD",  # Ripple
-        "SOL-USD",  # Solana
-        "DOGE-USD", # Dogecoin
-        "ADA-USD",  # Cardano
-        "LINK-USD", # Chainlink
-        "DOT-USD"   # Polkadot
-    ]
+def get_crypto_list():
+    """Read the crypto list from the existing CoinGecko CSV"""
+    try:
+        crypto_list = []
+        csv_file = os.path.join(CRYPTO_DATA_DIR, "top_crypto_list.csv")
+        
+        with open(csv_file, 'r') as file:
+            reader = csv.DictReader(file)
+            for row in reader:
+                # Convert CoinGecko symbol to Yahoo Finance format
+                symbol = f"{row['symbol'].upper()}-USD"
+                crypto_list.append(symbol)
+        return crypto_list
+    except Exception as e:
+        print(f"Error reading crypto list: {e}")
+        return []
 
 def fetch_historical_data(symbol, start_time, end_time):
     """Fetch historical hourly data for a given crypto symbol"""
     try:
-        # Create a Ticker object
         ticker = yf.Ticker(symbol)
-        
-        # Get historical data with hourly intervals
         df = ticker.history(start=start_time, end=end_time, interval='1h')
         
         if df.empty:
             print(f"No data returned for {symbol}")
             return []
             
-        # Convert the data to the format we want
         data = [(t.strftime("%Y-%m-%d %H:%M:%S"), price) 
                 for t, price in zip(df.index, df['Close'])]
         return data
@@ -47,9 +46,8 @@ def fetch_historical_data(symbol, start_time, end_time):
 def save_to_csv(symbol, data):
     """Save the crypto data to a CSV file"""
     try:
-        # Create filename - convert BTC-USD to btc_usd_hourly_data.csv
         filename = f"{symbol.lower().replace('-', '_')}_hourly_data.csv"
-        csv_file = os.path.join(CSV_DIR, filename)
+        csv_file = os.path.join(CRYPTO_DATA_DIR, filename)
         
         with open(csv_file, 'w', newline='') as file:
             writer = csv.writer(file)
@@ -63,8 +61,11 @@ def update_data():
     """Main function to update all crypto data"""
     print(f"Starting crypto data update at {datetime.now()}")
     
-    # Get list of cryptocurrencies
-    cryptos = get_crypto_symbols()
+    # Get list of cryptocurrencies from our CoinGecko CSV
+    cryptos = get_crypto_list()
+    if not cryptos:
+        print("No cryptocurrencies found in list!")
+        return
     
     # Calculate time range - last 30 days
     end_time = datetime.now()
