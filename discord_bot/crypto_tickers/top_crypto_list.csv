@@ -1,101 +1,1001 @@
 symbol,name,market_cap_rank
 BTC-USD,Bitcoin,1
 ETH-USD,Ethereum,2
-USDT-USD,Tether,3
-XRP-USD,XRP,4
+XRP-USD,XRP,3
+USDT-USD,Tether,4
 SOL-USD,Solana,5
 BNB-USD,BNB,6
 DOGE-USD,Dogecoin,7
-USDC-USD,USDC,8
-ADA-USD,Cardano,9
+ADA-USD,Cardano,8
+USDC-USD,USDC,9
 STETH-USD,Lido Staked Ether,10
 AVAX-USD,Avalanche,11
 TRX-USD,TRON,12
 SHIB-USD,Shiba Inu,13
 TON-USD,Toncoin,14
 XLM-USD,Stellar,15
-WSTETH-USD,Wrapped stETH,16
-WBTC-USD,Wrapped Bitcoin,17
+LINK-USD,Chainlink,16
+WSTETH-USD,Wrapped stETH,17
 DOT-USD,Polkadot,18
-LINK-USD,Chainlink,19
-WETH-USD,WETH,20
-BCH-USD,Bitcoin Cash,21
-SUI-USD,Sui,22
-HBAR-USD,Hedera,23
+HBAR-USD,Hedera,19
+WBTC-USD,Wrapped Bitcoin,20
+SUI-USD,Sui,21
+BCH-USD,Bitcoin Cash,22
+WETH-USD,WETH,23
 LTC-USD,Litecoin,24
-PEPE-USD,Pepe,25
-LEO-USD,LEO Token,26
-NEAR-USD,NEAR Protocol,27
-UNI-USD,Uniswap,28
-WEETH-USD,Wrapped eETH,29
-APT-USD,Aptos,30
+NEAR-USD,NEAR Protocol,25
+PEPE-USD,Pepe,26
+UNI-USD,Uniswap,27
+LEO-USD,LEO Token,28
+APT-USD,Aptos,29
+WEETH-USD,Wrapped eETH,30
 ICP-USD,Internet Computer,31
-USDS-USD,USDS,32
-CRO-USD,Cronos,33
-ETC-USD,Ethereum Classic,34
-POL-USD,POL (ex-MATIC),35
+POL-USD,POL (ex-MATIC),32
+USDS-USD,USDS,33
+VET-USD,VeChain,34
+CRO-USD,Cronos,35
 FET-USD,Artificial Superintelligence Alliance,36
-USDE-USD,Ethena USDe,37
-TAO-USD,Bittensor,38
-RENDER-USD,Render,39
-FIL-USD,Filecoin,40
-KAS-USD,Kaspa,41
-ALGO-USD,Algorand,42
-VET-USD,VeChain,43
-ARB-USD,Arbitrum,44
-DAI-USD,Dai,45
-WBT-USD,WhiteBIT Coin,46
-AAVE-USD,Aave,47
-ATOM-USD,Cosmos Hub,48
-OM-USD,MANTRA,49
-STX-USD,Stacks,50
-OKB-USD,OKB,51
-TIA-USD,Celestia,52
-IMX-USD,Immutable,53
-BONK-USD,Bonk,54
+ETC-USD,Ethereum Classic,37
+ALGO-USD,Algorand,38
+USDE-USD,Ethena USDe,39
+RENDER-USD,Render,40
+TAO-USD,Bittensor,41
+FIL-USD,Filecoin,42
+ARB-USD,Arbitrum,43
+KAS-USD,Kaspa,44
+ATOM-USD,Cosmos Hub,45
+STX-USD,Stacks,46
+IMX-USD,Immutable,47
+AAVE-USD,Aave,48
+DAI-USD,Dai,49
+FTM-USD,Fantom,50
+TIA-USD,Celestia,51
+OM-USD,MANTRA,52
+WBT-USD,WhiteBIT Coin,53
+OKB-USD,OKB,54
 XMR-USD,Monero,55
-WIF-USD,dogwifhat,56
-MNT-USD,Mantle,57
-OP-USD,Optimism,58
-HYPE-USD,Hyperliquid,59
-THETA-USD,Theta Network,60
-FTM-USD,Fantom,61
-INJ-USD,Injective,62
-GRT-USD,The Graph,63
-ENA-USD,Ethena,64
-SEI-USD,Sei,65
-WLD-USD,Worldcoin,66
-BGB-USD,Bitget Token,67
-WETH-USD,Binance-Peg WETH,68
+BONK-USD,Bonk,56
+WIF-USD,dogwifhat,57
+INJ-USD,Injective,58
+OP-USD,Optimism,59
+MNT-USD,Mantle,60
+HYPE-USD,Hyperliquid,61
+GRT-USD,The Graph,62
+THETA-USD,Theta Network,63
+SEI-USD,Sei,64
+ENA-USD,Ethena,65
+ONDO-USD,Ondo,66
+WLD-USD,Worldcoin,67
+RUNE-USD,THORChain,68
 FLOKI-USD,FLOKI,69
-FDUSD-USD,First Digital USD,70
-BRETT-USD,Brett,72
-RUNE-USD,THORChain,71
-RETH-USD,Rocket Pool ETH,73
-CBBTC-USD,Coinbase Wrapped BTC,74
-GALA-USD,GALA,75
-KAIA-USD,Kaia,76
-METH-USD,Mantle Staked Ether,77
-ONDO-USD,Ondo,78
-PYTH-USD,Pyth Network,79
-EOS-USD,EOS,80
-AR-USD,Arweave,81
-QNT-USD,Quant,82
-XTZ-USD,Tezos,83
-MKR-USD,Maker,84
-FLR-USD,Flare,85
-JUP-USD,Jupiter,86
-LDO-USD,Lido DAO,87
-STRK-USD,Starknet,88
-EZETH-USD,Renzo Restaked ETH,89
-SAND-USD,The Sandbox,90
-SOLVBTC-USD,Solv Protocol SolvBTC,91
-FLOW-USD,Flow,92
-KCS-USD,KuCoin,93
-JASMY-USD,JasmyCoin,95
-RAY-USD,Raydium,94
+BGB-USD,Bitget Token,70
+WETH-USD,Binance-Peg WETH,71
+GALA-USD,GALA,72
+QNT-USD,Quant,73
+KAIA-USD,Kaia,74
+JASMY-USD,JasmyCoin,75
+MKR-USD,Maker,76
+PYTH-USD,Pyth Network,77
+BRETT-USD,Brett,78
+SAND-USD,The Sandbox,79
+FDUSD-USD,First Digital USD,80
+RETH-USD,Rocket Pool ETH,81
+IOTA-USD,IOTA,82
+CBBTC-USD,Coinbase Wrapped BTC,83
+FLR-USD,Flare,84
+EOS-USD,EOS,85
+AR-USD,Arweave,86
+FLOW-USD,Flow,87
+STAU-USD,STAU,88
+LDO-USD,Lido DAO,89
+XTZ-USD,Tezos,90
+METH-USD,Mantle Staked Ether,91
+MATIC-USD,Polygon,92
+STRK-USD,Starknet,93
+JUP-USD,Jupiter,94
+BEAM-USD,Beam,95
 HNT-USD,Helium,96
-GT-USD,Gate,97
-BEAM-USD,Beam,98
-CORE-USD,Core,99
+KCS-USD,KuCoin,97
+EZETH-USD,Renzo Restaked ETH,98
+VIRTUAL-USD,Virtuals Protocol,99
 BSV-USD,Bitcoin SV,100
+SOLVBTC-USD,Solv Protocol SolvBTC,101
+RAY-USD,Raydium,102
+AXS-USD,Axie Infinity,103
+BTT-USD,BitTorrent,104
+GT-USD,Gate,105
+NEO-USD,NEO,106
+CORE-USD,Core,107
+EGLD-USD,MultiversX,108
+RSETH-USD,Kelp DAO Restaked ETH,109
+ENS-USD,Ethereum Name Service,110
+MANA-USD,Decentraland,111
+AIOZ-USD,AIOZ Network,112
+DYDX-USD,dYdX,113
+PNUT-USD,Peanut the Squirrel,114
+POPCAT-USD,Popcat,115
+MSOL-USD,Marinade Staked SOL,116
+APE-USD,ApeCoin,117
+AERO-USD,Aerodrome Finance,118
+XDC-USD,XDC Network,119
+EETH-USD,ether.fi Staked ETH,120
+ZEC-USD,Zcash,121
+CHZ-USD,Chiliz,122
+TKX-USD,Tokenize Xchange,123
+CFX-USD,Conflux,124
+LBTC-USD,Lombard Staked BTC,125
+CRV-USD,Curve DAO,126
+FTN-USD,Fasttoken,127
+MINA-USD,Mina Protocol,128
+XEC-USD,eCash,129
+AKT-USD,Akash Network,130
+BNSOL-USD,Binance Staked SOL,131
+CMETH-USD,Mantle Restaked ETH,132
+PENDLE-USD,Pendle,133
+SOLVBTC.BBN-USD,Solv Protocol SolvBTC.BBN,134
+W-USD,Wormhole,135
+NEXO-USD,NEXO,136
+AXL-USD,Axelar,137
+JUPSOL-USD,Jupiter Staked SOL,138
+RSR-USD,Reserve Rights,139
+NOT-USD,Notcoin,140
+SNX-USD,Synthetix Network,141
+WBTC-USD,Arbitrum Bridged WBTC (Arbitrum One),142
+CAKE-USD,PancakeSwap,143
+ORDI-USD,ORDI,144
+DOGE-USD,Binance-Peg Dogecoin,145
+MOG-USD,Mog Coin,146
+ROSE-USD,Oasis,147
+MEW-USD,cat in a dogs world,148
+LUNC-USD,Terra Luna Classic,149
+CKB-USD,Nervos Network,150
+ETHDYDX-USD,dYdX,151
+RON-USD,Ronin,152
+ZK-USD,ZKsync,153
+BLUR-USD,Blur,154
+WETH-USD,L2 Standard Bridged WETH (Base),155
+COMP-USD,Compound,156
+GRASS-USD,Grass,157
+WETH-USD,Arbitrum Bridged WETH (Arbitrum One),158
+USDD-USD,USDD,159
+NEIRO-USD,Neiro,160
+ARKM-USD,Arkham,161
+KAVA-USD,Kava,162
+GNO-USD,Gnosis,163
+GOAT-USD,Goatseus Maximus,164
+EIGEN-USD,Eigenlayer,165
+KSM-USD,Kusama,166
+ZRO-USD,LayerZero,167
+SUPER-USD,SuperVerse,168
+DASH-USD,Dash,169
+SAFE-USD,Safe,170
+PRIME-USD,Echelon Prime,171
+1INCH-USD,1inch,172
+CBETH-USD,Coinbase Wrapped Staked ETH,173
+XAUT-USD,Tether Gold,175
+DOG-USD,DOG•GO•TO•THE•MOON (Runes),174
+ZIL-USD,Zilliqa,176
+FRAX-USD,Frax,177
+ASTR-USD,Astar,178
+BOME-USD,BOOK OF MEME,179
+HOT-USD,Holo,180
+BTG-USD,Bitcoin Gold,181
+WOO-USD,WOO,182
+ENJ-USD,Enjin Coin,183
+AMP-USD,Amp,184
+SUPEROETHB-USD,Super OETH,185
+CTC-USD,Creditcoin,186
+GMT-USD,GMT,187
+TFUEL-USD,Theta Fuel,188
+IOTX-USD,IoTeX,189
+LPT-USD,Livepeer,190
+BZR-USD,Bazaars,191
+NFT-USD,APENFT,192
+SNEK-USD,Snek,193
+MOODENG-USD,Moo Deng,194
+DEXE-USD,DeXe,195
+SATS-USD,SATS (Ordinals),196
+CELO-USD,Celo,197
+EBTC-USD,Ether.fi Staked BTC,198
+QUBIC-USD,Qubic,199
+ZRX-USD,0x Protocol,200
+BDX-USD,Beldex,201
+FRXETH-USD,Frax Ether,202
+CHEX-USD,CHEX Token,203
+TWT-USD,Trust Wallet,204
+DYM-USD,Dymension,205
+ETHFI-USD,Ether.fi,206
+WETH-USD,Polygon PoS Bridged WETH (Polygon POS),207
+MEME-USD,Memecoin,208
+PAXG-USD,PAX Gold,209
+SPX-USD,SPX6900,210
+USD0-USD,Usual USD,211
+WEMIX-USD,WEMIX,212
+TEL-USD,Telcoin,213
+BTC.B-USD,Avalanche Bridged BTC (Avalanche),214
+TURBO-USD,Turbo,215
+ACT-USD,Act I The AI Prophecy,216
+ZETA-USD,ZetaChain,217
+BAT-USD,Basic Attention,218
+SAVAX-USD,BENQI Liquid Staked AVAX,219
+TBTC-USD,tBTC,220
+GLM-USD,Golem,221
+TUSD-USD,TrueUSD,222
+ETHW-USD,EthereumPoW,223
+PYUSD-USD,PayPal USD,224
+ANKR-USD,Ankr Network,225
+VRSC-USD,Verus,226
+AEVO-USD,Aevo,227
+MANTA-USD,Manta Network,228
+QTUM-USD,Qtum,229
+SWETH-USD,Swell Ethereum,230
+POLYX-USD,Polymesh,231
+RVN-USD,Ravencoin,232
+ETHX-USD,Stader ETHx,233
+JTO-USD,Jito,234
+ILV-USD,Illuvium,235
+OSMO-USD,Osmosis,236
+WETH-USD,L2 Standard Bridged WETH (Blast),237
+SC-USD,Siacoin,238
+XCH-USD,Chia,239
+XYO-USD,XYO Network,240
+USDY-USD,Ondo US Dollar Yield,241
+CVX-USD,Convex Finance,242
+ALEO-USD,ALEO,243
+KDA-USD,Kadena,244
+CHILLGUY-USD,Just a chill guy,245
+GAS-USD,Gas,246
+IO-USD,io.net,247
+ELF-USD,aelf,248
+ALT-USD,AltLayer,249
+JST-USD,JUST,250
+LUNA-USD,Terra,251
+USDB-USD,USDB,252
+SFRXETH-USD,Staked Frax Ether,253
+SKL-USD,SKALE,254
+CORGIAI-USD,CorgiAI,255
+USYC-USD,Hashnote USYC,256
+USDC.E-USD,Bridged USDC (Polygon PoS Bridge),257
+MASK-USD,Mask Network,258
+SFP-USD,SafePal,259
+PEPECOIN-USD,PepeCoin,260
+LSETH-USD,Liquid Staked ETH,261
+TRAC-USD,OriginTrail,262
+METIS-USD,Metis,263
+DOGS-USD,Dogs,264
+BABYDOGE-USD,Baby Doge Coin,265
+ATH-USD,Aethir,266
+AI16Z-USD,ai16z,267
+QAI-USD,QuantixAI,268
+BORG-USD,SwissBorg,269
+BICO-USD,Biconomy,270
+BUSD-USD,Binance-Peg BUSD,271
+ONE-USD,Harmony,272
+CWBTC-USD,cWBTC,273
+FWOG-USD,Fwog,274
+VTHO-USD,VeThor,275
+DRIFT-USD,Drift Protocol,276
+AMAPT-USD,Amnis Aptos,277
+T-USD,Threshold Network,278
+WBTC-USD,Polygon Bridged WBTC (Polygon POS),279
+LRC-USD,Loopring,280
+DCR-USD,Decred,281
+PEOPLE-USD,ConstitutionDAO,282
+PUMPBTC-USD,pumpBTC,283
+DGB-USD,DigiByte,284
+XRD-USD,Radix,285
+DAG-USD,Constellation,286
+MX-USD,MX,287
+GIGA-USD,Gigachad,288
+FIDA-USD,Solana Name Service,289
+GMX-USD,GMX,290
+FLUX-USD,Flux,291
+ETH-USD,Bridged Ether (StarkGate),292
+RPL-USD,Rocket Pool,293
+GLMR-USD,Moonbeam,294
+FXS-USD,Frax Share,295
+YFI-USD,yearn.finance,296
+UMA-USD,UMA,297
+DEGEN-USD,Degen (Base),298
+GAL-USD,Galxe,299
+COTI-USD,COTI,300
+ONT-USD,Ontology,301
+DOGE-USD,Department Of Government Efficiency,302
+XEM-USD,NEM,303
+NOS-USD,Nosana,304
+0X0-USD,0x0.ai: AI Smart Contract,305
+RLB-USD,Rollbit Coin,306
+PONKE-USD,PONKE,307
+AGI-USD,Delysium,308
+OHM-USD,Olympus,309
+AIXBT-USD,aixbt by Virtuals,310
+G-USD,Gravity,311
+CHR-USD,Chromia,312
+AGIX-USD,SingularityNET,313
+ICX-USD,ICON,314
+ZEREBRO-USD,Zerebro,316
+BAND-USD,Band Protocol,315
+SSOL-USD,Solayer Staked SOL,317
+API3-USD,API3,318
+XAI-USD,Xai,319
+BLAST-USD,Blast,320
+SXP-USD,Solar,321
+HONEY-USD,Hivemapper,322
+MWC-USD,MimbleWimbleCoin,323
+APU-USD,Apu Apustaja,324
+SAGA-USD,Saga,325
+YGG-USD,Yield Guild Games,326
+NPC-USD,Non-Playable Coin,327
+CAT-USD,Simon's Cat,328
+WBETH-USD,Wrapped Beacon ETH,329
+SUSHI-USD,Sushi,330
+ZEN-USD,Horizen,331
+PAAL-USD,PAAL AI,332
+HMSTR-USD,Hamster Kombat,333
+CSPR-USD,Casper Network,334
+BASEDAI-USD,BasedAI,335
+MPLX-USD,Metaplex,336
+CET-USD,CoinEx,337
+LCX-USD,LCX,338
+NXM-USD,Nexus Mutual,339
+ID-USD,SPACE ID,340
+AUDIO-USD,Audius,341
+SUN-USD,Sun Token,342
+AVAIL-USD,Avail,343
+WETH-USD,Wrapped Ether (Mantle Bridge),344
+VVS-USD,VVS Finance,345
+BIGTIME-USD,Big Time,346
+CETUS-USD,Cetus Protocol,347
+SGB-USD,Songbird,348
+INST-USD,Instadapp,349
+XNO-USD,Nano,350
+BITCOIN-USD,HarryPotterObamaSonic10Inu (ETH),351
+USDT-USD,Mantle Bridged USDT (Mantle),352
+QGOLD-USD,Quorium,353
+TRIBE-USD,Tribe,354
+CFG-USD,Centrifuge,355
+CETH-USD,cETH,356
+TETH-USD,Treehouse ETH,357
+KUB-USD,Bitkub Coin,358
+ANDY-USD,ANDY ETH,359
+VANRY-USD,Vanar Chain,360
+PUPS-USD,PUPS•WORLD•PEACE,362
+CPOOL-USD,Clearpool,361
+SSV-USD,SSV Network,363
+LSK-USD,Lisk,364
+IOST-USD,IOST,365
+JOE-USD,JOE,366
+SCRT-USD,Secret,367
+TRB-USD,Tellor Tributes,368
+GFI-USD,Goldfinch,369
+XVG-USD,Verge,370
+ACX-USD,Across Protocol,371
+WAVES-USD,Waves,372
+ZIG-USD,Zignaly,373
+MYTH-USD,Mythos,374
+SOLO-USD,Sologenic,375
+C98-USD,Coin98,376
+WAXP-USD,WAX,377
+PIXEL-USD,Pixels,378
+BANANA-USD,Banana Gun,379
+ULTIMA-USD,Ultima,380
+TITS-USD,We Love Tits,381
+MERL-USD,Merlin Chain,382
+BINK-USD,Big Dog Fink,383
+ABTC-USD,aBTC,384
+ETH+-USD,ETHPlus,385
+SNT-USD,Status,386
+OUSG-USD,OUSG,387
+STBTC-USD,Lorenzo stBTC,388
+WELL-USD,Moonwell,389
+ORAI-USD,Oraichain,390
+AZERO-USD,Aleph Zero,391
+BAL-USD,Balancer,392
+SPEC-USD,Spectral,393
+OKT-USD,OKT Chain,394
+COQ-USD,Coq Inu,395
+TRU-USD,TrueFi,396
+MORPHO-USD,Morpho,397
+KMNO-USD,Kamino,398
+USDA-USD,USDa,399
+OCEAN-USD,Ocean Protocol,400
+ABT-USD,Arcblock,401
+MRS-USD,Metars Genesis,402
+USDX-USD,usdx.money USDX,403
+SLP-USD,Smooth Love Potion,404
+ONG-USD,Ontology Gas,405
+MOVR-USD,Moonriver,406
+CTSI-USD,Cartesi,407
+BORA-USD,BORA,408
+RLC-USD,iExec RLC,409
+AMPL-USD,Ampleforth,410
+FARTCOIN-USD,Fartcoin,411
+EDU-USD,Open Campus,412
+POWR-USD,Powerledger,413
+NMT-USD,NetMind Token,414
+TAIKO-USD,Taiko,415
+DENT-USD,Dent,416
+IQ-USD,IQ,418
+PZETH-USD,Renzo Restaked LST,417
+GPU-USD,NodeAI,419
+NMR-USD,Numeraire,420
+NTRN-USD,Neutron,421
+ORCA-USD,Orca,422
+OSAK-USD,Osaka Protocol,423
+HEART-USD,Humans.ai,424
+XVS-USD,Venus,425
+POND-USD,Marlin,426
+DEUSD-USD,Elixir deUSD,427
+GOMINING-USD,Gomining Token,429
+GHO-USD,GHO,430
+BB-USD,BounceBit,428
+ERG-USD,Ergo,431
+ACH-USD,Alchemy Pay,432
+HT-USD,Huobi,433
+WETH-USD,L2 Standard Bridged WETH (Optimism),434
+LQTY-USD,Liquity,436
+MAGIC-USD,Treasure,437
+ZRC-USD,Zircuit,435
+$RCGE-USD,RCGE,438
+ALUSD-USD,Alchemix USD,439
+AGETH-USD,Kelp Gain,440
+BBSOL-USD,Bybit Staked SOL,441
+CDT-USD,Blox,442
+SYN-USD,Synapse,443
+LKY-USD,Luckycoin,444
+PEAQ-USD,peaq,445
+ORBS-USD,Orbs,447
+OLAS-USD,Autonolas,448
+OSETH-USD,StakeWise Staked ETH,449
+TAI-USD,TARS AI,446
+TOKEN-USD,TokenFi,451
+ZENT-USD,Zentry,450
+ALPH-USD,Alephium,452
+HASHAI-USD,HashAI,454
+ANYONE-USD,ANyONe Protocol,453
+AITECH-USD,Solidus Ai Tech,455
+VELO-USD,Velo,456
+ALICE-USD,My Neighbor Alice,457
+USDC.E-USD,Arbitrum Bridged USDC (Arbitrum),458
+PUNDIX-USD,Pundi X,459
+MOBILE-USD,Helium Mobile,460
+HIPPO-USD,sudeng,461
+CGPT-USD,ChainGPT,462
+DUSK-USD,Dusk,463
+USTC-USD,TerraClassicUSD,464
+SPELL-USD,Spell,465
+BONE-USD,Bone ShibaSwap,466
+PURR-USD,Purr,469
+OETH-USD,Origin Ether,467
+CTXC-USD,Cortex,468
+CYBER-USD,CYBER,470
+MMX-USD,MMX,471
+AIC-USD,AI Companions,472
+MVL-USD,MVL,473
+CARV-USD,CARV,474
+RIF-USD,RSK Infrastructure Framework,475
+SUNDOG-USD,Sundog,476
+VENOM-USD,Venom,477
+CHEEMS-USD,Cheems Token,478
+CVC-USD,Civic,479
+BAN-USD,Comedian,480
+TRUAPT-USD,TruFin Staked APT,481
+HIVE-USD,Hive,482
+HOOK-USD,Hooked Protocol,483
+ALI-USD,Artificial Liquid Intelligence,484
+CELR-USD,Celer Network,485
+MTL-USD,Metal DAO,487
+THE-USD,Thena,489
+SLERF-USD,Slerf,488
+DKA-USD,dKargo,490
+OMNI-USD,Omni Network,486
+DEEP-USD,DeepBook,491
+SYS-USD,Syscoin,492
+WIN-USD,WINkLink,493
+STEEM-USD,Steem,494
+LUMIA-USD,Lumia,495
+IAG-USD,Iagon,496
+HFT-USD,Hashflow,498
+NEURAL-USD,NEURALAI,497
+WZRD-USD,Bitcoin Wizards,499
+PHA-USD,PHALA,500
+ACE-USD,Fusionist,501
+CTK-USD,Shentu,502
+ARK-USD,ARK,503
+ZCX-USD,Unizen,504
+ARDR-USD,Ardor,506
+DAR-USD,Mines of Dalarnia,505
+DODO-USD,DODO,507
+EURS-USD,STASIS EURO,508
+KNC-USD,Kyber Network Crystal,509
+USDC-USD,Cronos Bridged USDC (Cronos),511
+AUCTION-USD,Bounce,510
+ALU-USD,Altura,513
+SCR-USD,Scroll,512
+MEOW-USD,MEOW,514
+OZO-USD,Ozone Chain,515
+MAV-USD,Maverick Protocol,516
+SFUND-USD,Seedify.fund,517
+UNIETH-USD,Universal ETH,518
+PROM-USD,Prom,519
+STRAX-USD,Stratis,520
+FX-USD,Function X,521
+$MICHI-USD,michi,522
+MLK-USD,MiL.k Alliance,523
+H2O-USD,H2O Dao,524
+AURORA-USD,Aurora,525
+WSTETH-USD,Bridged Wrapped stETH (Gnosis),526
+MED-USD,Medibloc,527
+WILD-USD,Wilder World,528
+WOLF-USD,LandWolf,529
+TRUMATIC-USD,TruFin Staked MATIC,530
+KAU-USD,Kinesis Gold,531
+PCI-USD,Paycoin,533
+MPL-USD,Maple,532
+MBOX-USD,Mobox,534
+REWARD-USD,Rewardable,535
+LYX-USD,LUKSO,536
+COW-USD,CoW Protocol,538
+QI-USD,BENQI,539
+PHB-USD,Phoenix,537
+ACA-USD,Acala,540
+KAG-USD,Kinesis Silver,541
+ELON-USD,Dogelon Mars,542
+CATI-USD,Catizen,543
+DIA-USD,DIA,544
+NKYC-USD,NKYC Token,545
+MATICX-USD,Stader MaticX,546
+MOCA-USD,Moca Coin,548
+SYRUP-USD,Syrup,547
+RARE-USD,SuperRare,549
+AGLD-USD,Adventure Gold,550
+VELO-USD,Velodrome Finance,551
+LUCE-USD,Luce,552
+MYRIA-USD,Myria,553
+HIFI-USD,Hifi Finance,554
+LMWR-USD,LimeWire,555
+DAO-USD,DAO Maker,556
+JET-USD,Satoshi Airline,557
+SDEX-USD,SmarDex,558
+STPT-USD,STP,559
+RSS3-USD,RSS3,560
+ALPHA-USD,Stella,561
+WBTC-USD,Optimism Bridged WBTC (Optimism),562
+$MYRO-USD,Myro,563
+RDNT-USD,Radiant Capital,566
+UXLINK-USD,UXLINK,565
+BOBA-USD,Boba Network,567
+NAKA-USD,Nakamoto Games,564
+ZANO-USD,Zano,568
+WETH-USD,Ronin Bridged WETH (Ronin),571
+TON-USD,Tokamak Network,569
+RACA-USD,Radio Caca,570
+UXP-USD,UXD Protocol,572
+SAUCE-USD,SaucerSwap,573
+VITA-USD,VitaDAO,576
+NFP-USD,NFPrompt,574
+BAKE-USD,BakerySwap,575
+IPMB-USD,IPMB,577
+SKI-USD,Ski Mask Dog,578
+REQ-USD,Request,579
+BNT-USD,Bancor Network,581
+CXT-USD,Covalent X Token,580
+MUMU-USD,MUMU THE BULL,585
+QUIL-USD,Wrapped QUIL,582
+USDP-USD,Pax Dollar,583
+OGN-USD,Origin Token,584
+AVAX-USD,Binance-Peg Avalanche,586
+GGP-USD,GoGoPool,587
+BTSE-USD,BTSE Token,588
+TOSHI-USD,Toshi,589
+ALEX-USD,ALEX Lab,590
+SURE-USD,inSure DeFi,592
+STTON-USD,bemo Staked TON,591
+EWT-USD,Energy Web,593
+IXS-USD,IX Swap,624
+WRX-USD,WazirX,594
+WOJAK-USD,Wojak,595
+RETARDIO-USD,RETARDIO,596
+REZ-USD,Renzo,598
+PALM-USD,PaLM AI,600
+NKN-USD,NKN,601
+STORJ-USD,Storj,599
+VERUM-USD,Verum Coin,604
+BULLY-USD,Dolos The Bully,603
+LON-USD,Tokenlon,597
+BDC-USD,BILLION•DOLLAR•CAT (Runes),602
+DORA-USD,Dora Factory,606
+LISTA-USD,Lista DAO,605
+ISLM-USD,Islamic Coin,607
+AI-USD,Sleepless AI,608
+LEVER-USD,LeverFi,609
+WEN-USD,Wen,610
+CUDOS-USD,Cudos,612
+PYR-USD,Vulcan Forged,611
+PIN-USD,PinLink,614
+LOOM-USD,Loom Network (NEW),613
+KARRAT-USD,Karrat,615
+AXGT-USD,AxonDAO Governance Token,616
+GAME-USD,GameBuild,618
+MODE-USD,Mode,617
+WETH-USD,Avalanche Bridged WETH (Avalanche),620
+DAI-USD,Polygon PoS Bridged DAI (Polygon POS),619
+COL-USD,Clash of Lilliput,621
+RSC-USD,ResearchCoin,622
+OX-USD,OX Coin,623
+STMX-USD,StormX,625
+CROWN-USD,Crown by Third Time Games,626
+OAS-USD,Oasys,627
+LTO-USD,LTO Network,628
+POKT-USD,Pocket Network,630
+MBX-USD,Marblex,631
+ZEUS-USD,Zeus Network,629
+EURC-USD,EURC,633
+ZKJ-USD,Polyhedra Network,632
+KEEP-USD,Keep Network,634
+USDZ-USD,Anzen USDz,635
+BMX-USD,BitMart,637
+MIGGLES-USD,Mister Miggles,636
+LADYS-USD,Milady Meme Coin,638
+RBTC-USD,RabBitcoin,639
+OMI-USD,ECOMI,641
+TLOS-USD,Telos,642
+QKC-USD,QuarkChain,643
+EMP-USD,Empyreal,644
+XMW-USD,Morphware,651
+STNK-USD,Stonks,640
+PUFF-USD,Puff The Dragon,645
+BERT-USD,Bertram The Pomeranian,646
+KRD-USD,Krypton DAO,647
+GODS-USD,Gods Unchained,648
+USDT-USD,Cronos Bridged USDT (Cronos),649
+GNS-USD,Gains Network,650
+NRN-USD,Neuron,656
+NYM-USD,Nym,652
+ZBCN-USD,Zebec Network,655
+PRO-USD,Propy,654
+TNSR-USD,Tensor,653
+ECOIN-USD,Ecoin,657
+APEX-USD,ApeX,658
+NGL-USD,Entangle,659
+FRED-USD,First Convicted RACCON,662
+TET-USD,Tectum,660
+XPLA-USD,XPLA,661
+NEON-USD,Neon,663
+FLIP-USD,Chainflip,664
+WUF-USD,WUFFI,666
+DESO-USD,Decentralized Social,665
+BADGER-USD,Badger,667
+PEAS-USD,Peapods Finance,668
+STG-USD,Stargate Finance,669
+B2M-USD,Bit2Me,670
+HUNT-USD,Hunt,673
+RAD-USD,Radworks,672
+CBK-USD,Cobak,671
+CLV-USD,Clover Finance,674
+USDC.E-USD,Standard Bridged USDC.e (Optimism),676
+KOGE-USD,KOGE,675
+REEF-USD,Reef,677
+DEAI-USD,Zero1 Labs,678
+TLM-USD,Alien Worlds,679
+BLZ-USD,Bluzelle,681
+MIN-USD,Minswap,682
+GOUT-USD,GOUT,683
+GEAR-USD,Gearbox,684
+CSWAP-USD,ChainSwap,685
+PRCL-USD,Parcl,680
+EUTBL-USD,Spiko EU T-Bills Money Market Fund,686
+OXT-USD,Orchid Protocol,687
+HAIR-USD,HairDAO,688
+HPO-USD,Hippocrat,689
+PORTAL-USD,Portal,690
+PNG-USD,Pangolin,692
+SHDW-USD,Shadow Token,691
+BOBO-USD,BOBO Coin,693
+OORT-USD,OORT,694
+GTC-USD,Gitcoin,695
+REI-USD,REI Network,696
+DIONE-USD,Dione,697
+PERP-USD,Perpetual Protocol,698
+MBL-USD,MovieBloc,699
+CLOUD-USD,Cloud,700
+ATA-USD,Automata,703
+VRA-USD,Verasity,702
+MEMEFI-USD,MemeFi,701
+ACS-USD,Access Protocol,705
+OMG-USD,OMG Network,704
+BFC-USD,Bifrost,707
+NEIRO-USD,Neiro on ETH,706
+FBTC-USD,Ignition FBTC,708
+DOLA-USD,DOLA,709
+BONGO-USD,BONGO CAT,710
+UQC-USD,Uquid Coin,711
+MANEKI-USD,MANEKI,715
+APFC-USD,APF coin,713
+WHY-USD,WHY,712
+ROOT-USD,The Root Network,714
+VR-USD,Victoria VR,716
+ELG-USD,Escoin,718
+LIT-USD,Litentry,717
+EUL-USD,Euler,719
+$RIF-USD,Rifampicin,720
+MCDULL-USD,McDull (Meme),723
+SIDUS-USD,Sidus,722
+ERN-USD,Ethernity Chain,721
+DEGO-USD,Dego Finance,725
+COCO-USD,COCO COIN,724
+BLD-USD,Agoric,726
+AERGO-USD,Aergo,727
+ATR-USD,Artrade,728
+M87-USD,MESSIER,729
+CRVUSD-USD,crvUSD,730
+ANVL-USD,Anvil,731
+TORN-USD,Tornado Cash,732
+MAVIA-USD,Heroes of Mavia,733
+XCN-USD,Onyxcoin,734
+RIO-USD,Realio Network Token,735
+COS-USD,Contentos,736
+TRIAS-USD,TriasLab,737
+AIDOGE-USD,ArbDoge AI,738
+FORT-USD,Forta,739
+BUSD-USD,BUSD,740
+YES-USD,YES Money,741
+MFT-USD,Mainframe,743
+PAI-USD,ParallelAI,742
+USDX-USD,USDX,744
+META-USD,Metadium,746
+KEYCAT-USD,Keyboard Cat (Base),745
+INSURANCE-USD,INSURANCE,747
+AIAT-USD,AI Analysis Token,748
+ARPA-USD,ARPA,749
+TRUMP-USD,MAGA,751
+GHST-USD,Aavegotchi,752
+DMTR-USD,Dimitra,750
+STRD-USD,Stride,753
+GUSD-USD,Gemini Dollar,754
+METH-USD,Manta mETH,755
+LOOMOLD-USD,Loom Network (OLD),756
+SQGROW-USD,SquidGrow,759
+FIRE-USD,Matr1x Fire,757
+LUSD-USD,Liquity USD,758
+ANT-USD,Aragon,761
+FUN-USD,FUNToken,760
+FIS-USD,Stafi,762
+KUJI-USD,Kujira,763
+LUNA-USD,Luna by Virtuals,764
+DOG-USD,The Doge NFT,767
+WEXO-USD,Wexo,765
+WATC-USD,WATCoin,766
+BANANA-USD,Banana For Scale,768
+DIMO-USD,DIMO,769
+VVAIFU-USD,Dasha,784
+TKP-USD,TOKPIE,773
+TEMPLE-USD,TempleDAO,771
+LAT-USD,PlatON Network,770
+GAMA-USD,GAMA Coin,772
+SWEAT-USD,Sweat Economy,774
+ORN-USD,Orion,775
+ATLAS-USD,Star Atlas,776
+FLM-USD,Flamingo Finance,777
+MOODENG-USD,MOO DENG,778
+WTN-USD,WaterNeuron,781
+SHX-USD,Stronghold,779
+INF-USD,Sanctum Infinity,780
+LYXE-USD,LUKSO [OLD],782
+SUSDA-USD,sUSDa,785
+GEMS-USD,Gems VIP,783
+TRIBL-USD,Tribal Token,786
+BEAR-USD,TEDDY BEAR,787
+CACAO-USD,Maya Protocol,788
+GHX-USD,GamerCoin,790
+ARC-USD,Arc,789
+SWELL-USD,Swell,792
+VIC-USD,Viction,793
+MUNDI-USD,Salvator Mundi,791
+OPUL-USD,Opulous,795
+FLIX-USD,OmniFlix Network,794
+HOPPY-USD,Hoppy,797
+ARRR-USD,Pirate Chain,796
+ALCH-USD,Alchemist AI,800
+GFAL-USD,Games for a Living,799
+ETN-USD,Electroneum,801
+MGP-USD,Magpie,802
+ELA-USD,Elastos,803
+PROPS-USD,Propbase,804
+MOTHER-USD,Mother Iggy,798
+VCNT-USD,ViciCoin,805
+QANX-USD,QANplatform,806
+OL-USD,OPENLOOT,807
+NXRA-USD,Nexera,808
+SAI-USD,Sai,809
+OGY-USD,ORIGYN Foundation,810
+WNXM-USD,Wrapped NXM,813
+LOOKS-USD,LooksRare,811
+MATH-USD,MATH,814
+BOSON-USD,Boson Protocol,812
+WAN-USD,Wanchain,815
+SLND-USD,Save,816
+OCTA-USD,OctaSpace,817
+GL-BTC-USD,General-Layer BTC,818
+AA-USD,A3S,820
+ORDER-USD,Orderly Network,819
+ALOT-USD,Dexalot,821
+NST-USD,Ninja Squad Token,822
+MIM-USD,Magic Internet Money (Ethereum),823
+WBTC-USD,Avalanche Bridged WBTC (Avalanche),825
+PUFFER-USD,Puffer,824
+TARA-USD,Taraxa,826
+WHITE-USD,Whiteheart,827
+SKEY-USD,Skey Network,828
+SHRUB-USD,Shrub,834
+KNDX-USD,KONDUX,829
+DMT-USD,Dream Machine Token,830
+ALCX-USD,Alchemix,831
+RBN-USD,Ribbon Finance,833
+TIG-USD,The Innovation Game,835
+POLIS-USD,Star Atlas DAO,836
+WAGMIGAMES-USD,WAGMI Games,838
+STRIKE-USD,Strike,832
+MAPO-USD,MAP Protocol,839
+SHFL-USD,Shuffle,840
+SBD-USD,Steem Dollars,837
+CLORE-USD,Clore.ai,841
+ULT-USD,Shardus,842
+VOXEL-USD,Voxies,843
+WCFG-USD,Wrapped Centrifuge,844
+COPI-USD,Cornucopias,846
+REKT-USD,Rekt,847
+UFO-USD,UFO Token,845
+ZKML-USD,zKML,848
+BELLS-USD,Bellscoin,849
+SX-USD,SX Network,850
+TT-USD,ThunderCore,852
+CAH-USD,Moon Tropica,853
+L3-USD,Layer3,851
+RAIL-USD,Railgun,854
+NULS-USD,NULS,855
+GEL-USD,Gelato,856
+LINA-USD,Linear,857
+MNDE-USD,Marinade,858
+KMD-USD,Komodo,859
+JKL-USD,Jackal Protocol,860
+GGAVAX-USD,GoGoPool ggAVAX,861
+PEIPEI-USD,PeiPei,862
+POLS-USD,Polkastarter,863
+ANKRETH-USD,Ankr Staked ETH,864
+AEROBUD-USD,AEROBUD,865
+FORTH-USD,Ampleforth Governance,866
+HTM-USD,Hatom,868
+DBR-USD,deBridge,867
+XBG-USD,XBorg,869
+IDEX-USD,IDEX,870
+META-USD,META,871
+HDX-USD,Hydration,872
+SD-USD,Stader,873
+GEOD-USD,Geodnet,874
+INDY-USD,Indigo Protocol,875
+SLF-USD,Self Chain,876
+WXRP-USD,Wrapped XRP,877
+FCT-USD,Firmachain,878
+MURA-USD,Murasaki,880
+BLUB-USD,BLUB,879
+GSWIFT-USD,GameSwift,881
+ICE-USD,Ice Open Network,882
+USDL-USD,Lift Dollar,883
+$ADS-USD,Alkimi,885
+USD+-USD,Overnight.fi USD+,886
+USDM-USD,Mountain Protocol USD,887
+PIKA-USD,Pikaboss,888
+EL-USD,ELYSIA,889
+USDC.E-USD,Avalanche Bridged USDC (Avalanche),884
+NCT-USD,PolySwarm,890
+LNQ-USD,LinqAI,891
+$GROK-USD,Grok,893
+WBTC-USD,Cronos Bridged WBTC (Cronos),892
+ALB-USD,Alien Base,894
+NUM-USD,Numbers Protocol,899
+STOS-USD,Stratos,895
+CBAT-USD,cBAT,896
+BEL-USD,Bella Protocol,897
+GRS-USD,Groestlcoin,898
+HMT-USD,HUMAN Protocol,900
+MASA-USD,Masa,901
+LAI-USD,LayerAI,902
+CREAM-USD,Cream,903
+CHAMP-USD,Super Champs,905
+BERRY-USD,Strawberry AI,904
+AQUA-USD,Aquarius,906
+REN-USD,Ren,907
+PEPE-USD,Based Pepe,915
+BETA-USD,Beta Finance,909
+ZEDXION-USD,Zedxion,910
+NS-USD,SuiNS Token,908
+USDC-USD,zkSync Bridged USDC (zkSync),911
+SIGMA-USD,Sigma,914
+NTX-USD,NuNet,912
+MOR-USD,MorpheusAI,917
+SLAP-USD,CatSlap,913
+CHESS-USD,Tranchess,918
+CHEQ-USD,CHEQD Network,916
+BSW-USD,Biswap,919
+VLX-USD,Velas,920
+CRE-USD,Carry,921
+DF-USD,dForce,922
+DNT-USD,district0x,923
+GTAI-USD,GT Protocol,925
+MOC-USD,Mossland,924
+TROY-USD,TROY,926
+HAI-USD,Hacken,927
+HANU-USD,Hanu Yokia,928
+LOCK-USD,Houdini Swap,929
+FRONT-USD,Frontier,931
+FB-USD,Fractal Bitcoin,930
+BOUNTY-USD,ChainBounty,932
+HTR-USD,Hathor,933
+QUICK-USD,Quickswap,934
+USTBL-USD,Spiko US T-Bills Money Market Fund,936
+VAI-USD,Vaiot,942
+KISHU-USD,Kishu Inu,935
+KOMA-USD,Koma Inu,937
+NAVX-USD,NAVI Protocol,938
+VINU-USD,Vita Inu,939
+GLDGOV-USD,Gold DAO,941
+TOKE-USD,Tokemak,972
+CLANKER-USD,tokenbot,943
+GAFI-USD,GameFi.org,940
+UOS-USD,Ultra,946
+ACT-USD,Acet,945
+QUICK-USD,Quickswap [OLD],947
+PAID-USD,PAID,944
+IOT-USD,Helium IOT,948
+VADER-USD,VaderAI by Virtuals,950
+EVER-USD,Everscale,951
+IGT-USD,Infinitar Governance Token,952
+🦝-USD,TANUKI•WISDOM (Runes),953
+LOCKIN-USD,LOCK IN,956
+$SMH-USD,Spacemesh,955
+LCT-USD,Lemonschain,949
+SVL-USD,Slash Vision Labs,954
+SWFTC-USD,SWFTCOIN,957
+STDYDX-USD,Stride Staked DYDX,958
+DEP-USD,DEAPCOIN,959
+UBC-USD,Universal Basic Compute,984
+PLT-USD,Poollotto.finance,960
+WXM-USD,WeatherXM,962
+DATA-USD,Streamr,961
+10SET-USD,Tenset,965
+CAW-USD,A Hunters Dream,963
+BWB-USD,Bitget Wallet Token,964
+AVA-USD,AVA,966
+EURCV-USD,EUR CoinVertible,967
+SWBTC-USD,Swell Restaked BTC,968
+BTY-USD,Bityuan,970
+BOOE-USD,Book of Ethereum,969
+PROPS-USD,Props,974
+BOBAOPPA-USD,Boba Oppa,971
+LMEOW-USD,lmeow,975
+POLY-USD,Polymath,976
+CCD-USD,Concordium,977
+COMBO-USD,COMBO,978
+BULL-USD,Tron Bull,980
+XPRT-USD,Persistence One,979
+NPXS-USD,Pundi X [OLD],981
+GME-USD,GME (Ethereum),982
+VSC-USD,Vyvo Smart Chain,983
+BKN-USD,Brickken,985
+BRISE-USD,Bitgert,986
+NATI-USD,IlluminatiCoin,987
+SPECTRE-USD,Spectre AI,988
+DOGINME-USD,doginme,990
+FOXY-USD,Foxy,989
+DEXT-USD,DexTools,991
+STRX-USD,StrikeX,993
+SAMO-USD,Samoyedcoin,992
+XPR-USD,XPR Network,994
+HAT-USD,Top Hat,973
+SEAM-USD,Seamless Protocol,996
+HFUN-USD,Hypurr Fun,995
+CONX-USD,Connex,997
+FARM-USD,Harvest Finance,999
+APX-USD,APX,1000
+UM-USD,Penumbra,998
