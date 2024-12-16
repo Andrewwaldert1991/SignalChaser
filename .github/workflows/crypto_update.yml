@@ -23,15 +23,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install yfinance pandas requests
 
-      - name: List Directory Contents
-        run: |
-          ls -la
-          ls -la discord_bot/
-
       - name: Run Crypto Movers Analysis
         env:
           DISCORD_CRYPTO_MOVERS_WEBHOOK: ${{ secrets.DISCORD_CRYPTO_MOVERS_WEBHOOK }}
         run: |
-          echo "Starting crypto analysis..."
-          python discord_bot/crypto_movers.py
-          echo "Finished crypto analysis"
+          cd discord_bot
+          python crypto_movers.py
