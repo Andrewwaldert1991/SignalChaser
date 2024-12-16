@@ -1,4 +1,4 @@
-name: Update Crypto Prices
+name: Update Crypto Prices and Analysis
 
 on:
   schedule:
@@ -25,11 +25,17 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install yfinance pandas
+          pip install yfinance pandas requests
 
       - name: Fetch Crypto Data
         run: |
           python discord_bot/crypto_hourly_fetch.py
+
+      - name: Run Crypto Movers Analysis
+        env:
+          DISCORD_CRYPTO_MOVERS_WEBHOOK: ${{ secrets.DISCORD_CRYPTO_MOVERS_WEBHOOK }}
+        run: |
+          python crypto_movers.py
 
       - name: Commit and Push Changes
         env:
